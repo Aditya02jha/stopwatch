@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient( #2A2D32,black);
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+.stopwatch{
+    position: relative;
+    color: white;
+    /* left: 100px; */
+    /* align-items: center; */ 
+    text-align: center;
+}
+.stopwatch .digit{
+    /* position: relative; */
+    /* text-align: center; */
+    font-size: 90px;
+    font-weight: bolder;
+}
+.btn-wrapper{
+    display: inline-block;
+    /* position: relative; */
+}
+.btn{
+    /* position: relative; */
+    cursor: pointer;
+    text-align: center;
+    background-color: #2A2D32;
+    /* box-shadow: ; */
+    box-shadow: -8px -8px 36px gray;
+    border-radius: 15rem;
+    font-weight: bolder;
+    color: #ffff;
+    padding: 15px 25px;
+    margin: 15px 20px ;
+}
+
+.btn:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
+
